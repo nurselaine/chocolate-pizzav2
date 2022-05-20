@@ -6,7 +6,7 @@ nav {
   width: 100%;
   height: 70px;
   display: flex;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 
 nav section {
@@ -16,7 +16,7 @@ nav section {
 }
 
 nav section.icons{
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 
 nav section li{
@@ -24,7 +24,7 @@ nav section li{
 }
 
 section.logo div{
-  border: 1px red solid;
+  /* border: 1px red solid; */
   margin: 2px;
 }
 
@@ -39,7 +39,7 @@ section.logo p:nth-child(2){
 }
 
 section.logo div:nth-child(2){
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   width: 300px;
   margin-top: auto;
 }
@@ -52,11 +52,11 @@ nav section:nth-child(2){
 nav ul{
   display: flex;
   margin-left: ;
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 
 p.line{
-  border: 1px black solid;
+  /* border: 1px black solid; */
   height: 10px;
   margin-top: 15px; 
   color: red;
@@ -81,7 +81,7 @@ article.title p{
 }
 
 article section {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   width: 50%;
 }
 
@@ -113,17 +113,18 @@ article.instruction{
 }
 
 figure {
-  border: 1px black solid;
+  /* border: 1px black solid; */
+  position: relative;
 }
 
 figure img {
-  position: relative;
+  width:100%;
   margin-top: 15px;
 }
 
 form{
   /* border: 1px solid red; */
-  top: 1140px;  
+  top: 10%;  
   padding: 2rem;
   width: 100%;
   display: grid;
@@ -140,7 +141,7 @@ fieldset {
 
 label {
   font-family: 'Patrick Hand', sans-serif;
-  font-size: 26px;
+  font-size: 3vw;
 }
 
 input[type="checkbox"]{
@@ -151,7 +152,7 @@ input[type="checkbox"]{
 
 article.profile{
   display: flex;
-  border: 1px blue sollid;
+  /* border: 1px blue sollid; */
   margin: 10px 0px;
   overflow: hidden;
   width: 100%;
